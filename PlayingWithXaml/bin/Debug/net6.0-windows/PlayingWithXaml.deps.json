@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PlayingWithXaml/1.0.0": {
+        "runtime": {
+          "PlayingWithXaml.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlayingWithXaml/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
