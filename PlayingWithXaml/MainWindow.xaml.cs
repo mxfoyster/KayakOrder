@@ -27,8 +27,20 @@ namespace PlayingWithXaml
 
         private void ValidateUser(object sender, RoutedEventArgs e)
         {
-            Dashboard dashboard = new Dashboard();
-            dashboard.Show();
+            if (userId.Text == "0" && password.Password == "Letmein")
+            {
+                Dashboard dashboard = new Dashboard();
+                dashboard.Show();
+            }
+            else
+            {
+                string messageBoxText = "Wrong username or password, \n Pease try again!";
+                string caption = "Uhoh!";
+                MessageBoxButton button = MessageBoxButton.OK;
+                MessageBoxImage icon = MessageBoxImage.Information;
+                MessageBox.Show(messageBoxText, caption, button, icon);
+            }
+            
         }
     }
 }
