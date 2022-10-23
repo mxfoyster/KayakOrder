@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\mxfoy\source\repos\Apprenticeship\PlayingWithXaml\obj\Debug\net6.0-windows\
+C:\Users\mxfoy\source\repos\KayakOrder\PlayingWithXaml\obj\Debug\net6.0-windows\
 PlayingWithXaml
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\mxfoy\source\repos\Apprenticeship\PlayingWithXaml\App.xaml
-11407045341
+C:\Users\mxfoy\source\repos\KayakOrder\PlayingWithXaml\App.xaml
+22073988846
 
-5924447407
+6730936011
 194618410957
-MainWindow.xaml;
+Dashboard.xaml;MainWindow.xaml;
 
 False
 

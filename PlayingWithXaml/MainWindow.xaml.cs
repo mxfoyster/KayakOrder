@@ -24,5 +24,11 @@ namespace PlayingWithXaml
         {
             InitializeComponent();
         }
+
+        private void ValidateUser(object sender, RoutedEventArgs e)
+        {
+            Dashboard dashboard = new Dashboard();
+            dashboard.Show();
+        }
     }
 }
